@@ -1,9 +1,9 @@
 ---
 layout: allposts
-title: All posts
-landing-title: 'All posts'
+title: Blog
+# landing-title: 'Blog Posts'
 nav-menu: true
-description: null
+description: All Blog Posts
 image: null
 author: null
 show_tile: true
