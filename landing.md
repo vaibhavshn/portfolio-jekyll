@@ -2,9 +2,10 @@
 title: Landing
 layout: landing
 description: 'Land here'
-image: assets/images/pic07.jpg
+image: assets/images/self/2.jpg
 nav-menu: true
 show_tile: true
+permalink: landing
 ---
 
 <!-- Main -->

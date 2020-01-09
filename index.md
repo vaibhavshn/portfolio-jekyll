@@ -3,9 +3,13 @@ layout: home
 title: Home
 landing-title: 'Hi, I am Vaibhav'
 description: null
-image: null
+image: assets/images/self/landscape_cover.jpg
 author: null
 show_tile: false
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+What I do have are a very particular set of skills,
+skills that I have acquired over a very **short** career. <br>
+Skills that make me a pleasant experience for people like you. <br>
+;)
+
