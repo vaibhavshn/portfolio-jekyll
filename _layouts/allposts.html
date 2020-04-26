@@ -6,40 +6,40 @@
   -->
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %} 
-    
-    
-    <!-- Main -->
-    <div id="main" class="alt">
+  {% include header.html %}
 
-      <!-- One -->
-      <section id="one">
-	<div class="inner">
-          {% for post in site.posts %}
-    {% if post.title != 404 %}
-    {% if post.category == page.post_category %}
-    <a href="{{ post.url }}">
-	  <header class="major">
-	    <h1>{{ post.title }}</h1>
-	  </header>
-	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-	  {% if post.date %}<p>{{ post.date | date_to_string }}</p>{% endif %}
-    <p>{{ post.content }}</p>
-    </a>
-    {% endif %}
-	  {% endif %}
-          {% endfor %}
-	</div>
-      </section>
 
-    </div>
+  <!-- Main -->
+  <div id="main" class="alt">
 
-    {% include footer.html %}
+    <!-- One -->
+    <section id="one">
+      <div class="inner">
+        {% for post in site.posts %}
+        {% if post.title != 404 %}
+        {% if post.category == page.post_category %}
+        <a href="{{ post.url }}">
+          <header class="major">
+            <h1>{{ post.title }}</h1>
+          </header>
+          {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}"
+              alt="" /></span>{% endif %}
+          {% if post.date %}<p>{{ post.date | date_to_string }}</p>{% endif %}
+        </a>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+      </div>
+    </section>
 
-  </body>
+  </div>
+
+  {% include footer.html %}
+
+</body>
 
 </html>

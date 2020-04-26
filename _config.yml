@@ -4,7 +4,7 @@ subtitle: DEV
 email: vaibhavkshinde20@gmail.com
 description: A Work-In Progress Portfolio Page
 baseurl: 
-url: 'https://vaibks.github.io' # the base hostname & protocol for your site
+url: 'https://vaibhavshinde.com' # the base hostname & protocol for your site
 author: Vaibhav Shinde
 street_address: 
 city: Pune
@@ -30,7 +30,11 @@ slack_url:
 twitter_url: https://twitter.com/vaibhav__shinde
 
 # build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
+permalink: /:categories/:title
+
+plugins:
+  - jekyll-sitemap
 
 sass:
   style: compressed
